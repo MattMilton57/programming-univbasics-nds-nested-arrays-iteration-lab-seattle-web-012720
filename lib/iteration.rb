@@ -8,19 +8,19 @@ end
 export
 end
 
-def find_greater_pair(src)
+def find_greater_pair(array_2)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
   # that are in the inner Arrays
 biggie_smalls = [] 
 row_index = 0
-while row_index < src.count do
-  while src[row_index][0] > src[row_index][1] do
-    biggie_smalls= src[row_index][0]
+while row_index < array_2.count do
+  while array_2[row_index][0] > array_2[row_index][1] do
+    biggie_smalls= array_2[row_index][0]
     row_index +=1
   end
-  while src[row_index][0] < src[row_index][1] do
-    biggie_smalls= src[row_index][1] 
+  while array_2[row_index][0] < array_2[row_index][1] do
+    biggie_smalls= array_2[row_index][1] 
     row_index +=1
   end
 biggie_smalls
