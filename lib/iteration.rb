@@ -23,8 +23,8 @@ while row_index < array_2.count do
     biggie_smalls= array_2[row_index][1] 
     row_index +=1
   end
-biggie_smalls
 end 
+biggie_smalls
 
 def total_even_pairs(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
