@@ -17,10 +17,10 @@ row_index = 0
 while row_index < src.count do
   while src[row_index][0] > src[row_index][1] do
     biggie_smalls= src[row_index][0]
-    row_index_index +=1
-  while src[row_index][1] > src[row_index][0] do
+    row_index +=1
+  else
     biggie_smalls= src[row_index][1] 
-    row_index_index +=1
+    row_index +=1
   end
 biggie_smalls
 end 
