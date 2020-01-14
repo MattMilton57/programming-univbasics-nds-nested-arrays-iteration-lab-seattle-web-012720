@@ -16,10 +16,10 @@ biggie_smalls = []
 row_index = 0
 while row_index < array_2.count do
   while array_2[row_index][0] > array_2[row_index][1] do
-    biggie_smalls<< array_2[row_index][0]
+    biggie_smalls= array_2[row_index][0]
     row_index_index +=1
   while array_2[row_index][1] > array_2[row_index][0] do
-    biggie_smalls<< array_2[row_index][1] 
+    biggie_smalls= array_2[row_index][1] 
     row_index_index +=1
   end
 end
