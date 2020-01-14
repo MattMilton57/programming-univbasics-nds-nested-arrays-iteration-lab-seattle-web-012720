@@ -32,10 +32,10 @@ def total_even_pairs(src)
     array = []
   row_index = 0
 while row_index < src.count do
-  zero= src.[row_index][0]/2
-  one= src.[row_index][0]/2
-  while zero = 0 and one = 0 do
-    array=zero+one
+  while src.[row_index][0]/2 = 0 
+  and src.[row_index][1]/2 = 0
+  do
+    array=src.[row_index][0]+src.[row_index][1]
   end
   row_index += 1
 end
