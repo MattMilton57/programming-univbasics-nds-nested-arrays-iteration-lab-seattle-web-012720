@@ -22,9 +22,9 @@ while row_index < src.count do
     biggie_smalls= src[row_index][1] 
     row_index_index +=1
   end
-end
 biggie_smalls
-  
+end 
+
 def total_even_pairs(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # if both numbers in the pair are even, then add both those numbers to the
