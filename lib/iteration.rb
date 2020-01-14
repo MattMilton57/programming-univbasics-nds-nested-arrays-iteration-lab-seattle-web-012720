@@ -19,6 +19,7 @@ while row_index < src.count do
   row_index += 1
 end
 array
+end
 
 def total_even_pairs(src)
   # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
