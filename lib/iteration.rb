@@ -15,7 +15,7 @@ def find_greater_pair(src)
 biggie_smalls = [] 
 row_index = 0
 while row_index < src.count do
-  while src[row_index][0] > src[row_index][1] do
+  if src[row_index][0] > src[row_index][1] 
     biggie_smalls= src[row_index][0]
     row_index +=1
   else
