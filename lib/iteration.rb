@@ -15,7 +15,6 @@ def find_greater_pair(array_2)
 biggie_smalls = [] 
 row_index = 0
 while row_index < array_2.count do
-  element_index = 0
   while array_2[row_index][0] > array_2[row_index][1] do
     biggie_smalls<< array_2[row_index][0]
     row_index_index +=1
